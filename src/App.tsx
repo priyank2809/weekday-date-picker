@@ -3,8 +3,8 @@ import WeekdayDateRangePicker from './components/WeekdayDateRangePicker';
 
 function App() {
   const handleDateRangeChange = (dateRange: [Date, Date], weekends: Date[]) => {
-    console.log('Selected date range:', dateRange);
-    console.log('Weekend dates in range:', weekends);
+    console.log('selected date range:', dateRange);
+    console.log('weekend dates in range:', weekends);
   };
 
   return (
